@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.5;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+
+
+h1,
+h2 {
+
+    color: yellow;
+    font-family: 'Ruslan Display', cursive;
+
+
+
+}
+
+p {
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Caveat', cursive;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header,
+footer {
+    background-color: darkcyan;
+    padding: 10px 5px;
+}
+
+.name {
+
+    color: yellowgreen;
+
+}
+
+.main-nav a {
+    display: block;
+    text-transform: uppercase;
+    background: rgba(255, 215, 0, 0.5);
+    padding: 7px 22px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.main-nav a:hover {
+    color: white;
+    background-color: brown;
+    border: 2px dotted yellow;
+    transform: scale(0.9);
+}
+
+
+
+
+.profile-image {
+    max-width: 70%;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding-bottom: 1.25em;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.footer-nav {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer-name {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    float: left;
+    text-transform: capitalize;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.footer-nav,
+#footer-top {
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 0px;
+
+}
+
+#footer-top {
+    background: rgba(255, 215, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#footer-home,
+#footer-portfolio,
+#footer-contact,
+#footer-skills {
+    display: none;
+}
+
+
+/*---Float Clearfix---*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*--Media Queries-----*/
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 90%;
+        max-width: 1000px;
+
+    }
+
+
+    h1,
+    h2 {
+        color: yellow;
+        font-family: 'Ruslan Display', cursive;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        text-shadow: 2px 0px 1px red;
+
+    }
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-image: url(../images/laptop17.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: bottom;
+        color: white;
+    }
+
+    .name {
+        display: block;
+
+    }
+
+    .main-nav {
+        text-align: center;
+        display: block;
+
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: -4px;
+        margin-top: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+
+    .profile-image {
+        float: right;
+        width: 40%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+        padding-top: 0;
+    }
+
+    header p {
+        text-align: left;
+        margin-top: 0;
+        padding-left: 15px;
+        overflow-x: hidden;
+        font-size: 1.25em;
+    }
+
+    #skills {
+        background-image: url(../images/background13.jpg);
+        background-size: cover;
+        background-position: right center;
+        background-attachment: fixed;
+        margin-right: 10px;
+        padding: 30px;
+
+    }
+
+    .skill-section {
+        width: 33.33%;
+    }
+
+
+    #portfolio {
+        background-image: url(../images/laptop17.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        padding: 20px 0;
+
+    }
+
+    section {
+        width: 50%;
+        float: left;
+        padding-left: .25em;
+        padding-right: .25em;
+    }
+
+    section p {
+        padding-right: 15px;
+        font-size: 1.25rem;
+        background: rgba(255, 215, 0, 0.3);
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+
+
+    #contact {
+        border: 1px solid white;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    footer {
+        background-color: darkcyan;
+        padding-top: 15px;
+    }
+
+    footer p {
+        padding-left: 6.25rem;
+        padding-right: 6.25rem;
+        font-size: 1.25rem;
+    }
+
+
+    .footer-nav {
+        float: right;
+        margin-right: 15px;
+    }
+
+    #footer-name {
+        margin-left: 15px;
+    }
+
+    #footer-home,
+    #footer-portfolio,
+    #footer-contact,
+    #footer-skills {
+        text-align: right;
+        display: inline-block;
+        font-family: 'Ruslan Display', cursive;
+        font-size: .9rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-right: 4px;
+        margin-left: 8px;
+        background: rgba(255, 215, 0, 0.5);
+        padding: 5px 20px;
+        border-radius: 10px;
+    }
+
+
+    #footer-top {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+
+
+    .name {
+        float: left;
+        font-size: 1.25em;
+        margin: 0;
+        display: block;
+        padding: 20px
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+    .main-nav li {
+        display: inline-block;
+    }
+
+    section {
+        width: 33.33%;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    .skills {
+        width: 20%;
+    }
+
+    header {
+        padding: 25px;
+    }
+
+    footer {
+        padding-bottom: 0;
+    }
+
+}
+
