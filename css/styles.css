@@ -11,33 +11,24 @@ body {
     background-color: gray;
 }
 
-
-
 h1,
 h2 {
 
     color: yellow;
     font-family: 'Ruslan Display', cursive;
-
-
-
 }
 
 p {
     color: white;
     font-size: 1em;
-    /*font-family: 'Caveat', cursive;*/
+
 }
 
-
-
 img {
-    
+
     width: 100%;
     height: auto;
 }
-
-
 
 a {
     text-decoration: none;
@@ -53,7 +44,7 @@ footer {
 .name {
 
     color: green;
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00; 
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
 
 }
 
@@ -68,7 +59,7 @@ footer {
     text-align: center;
     color: white;
     border-radius: 10px;
-    margin-right:35px;
+    margin-right: 35px;
 }
 
 .main-nav a:hover {
@@ -77,9 +68,6 @@ footer {
     border: 2px dotted yellow;
     transform: scale(0.9);
 }
-
-
-
 
 .profile-image {
     max-width: 70%;
@@ -115,7 +103,6 @@ footer {
     float: left;
     text-transform: capitalize;
     margin-top: 30px;
-    
 }
 
 .footer-nav,
@@ -124,8 +111,6 @@ footer {
     letter-spacing: 1px;
     text-transform: uppercase;
     float: right;
-    
-
 }
 
 #footer-top {
@@ -154,14 +139,11 @@ footer {
 
 @media (min-width: 768px) {
     .wrapper {
-        width:100%;
+        width: 100%;
         max-width: 1000px;
-
     }
 
-
-    h1
-    {
+    h1 {
         color: yellow;
         font-family: 'Ruslan Display', cursive;
         font-size: 2em;
@@ -197,9 +179,7 @@ footer {
         padding-bottom: 20px;
         text-align: center;
         font-size: 1rem;
-
     }
-
 
     .profile-image {
         float: right;
@@ -215,7 +195,7 @@ footer {
         margin-top: 0;
         padding-left: 10px;
         overflow-x: hidden;
-        
+
     }
 
     #skills {
@@ -224,7 +204,7 @@ footer {
         background-position: right center;
         background-attachment: fixed;
         margin-bottom: -20px;
-        padding:30px;
+        padding: 30px;
 
     }
 
@@ -239,27 +219,25 @@ footer {
         background-position: center center;
         background-size: cover;
         padding: 0;
-padding-top: 20px;
+        padding-top: 20px;
     }
 
     section {
         width: 50%;
         float: left;
         padding: 10px;
-        
+
     }
 
     section p {
         padding-right: 5px;
         font-size: 1em;
-        
+
     }
 
     h2 {
         font-size: 1.1em;
     }
-
-
 
     #contact {
         border: 1px solid white;
@@ -283,7 +261,7 @@ padding-top: 20px;
     .footer-nav {
         float: right;
         margin-right: 15px;
-        margin-top:3px;
+        margin-top: 3px;
     }
 
     #footer-name {
@@ -336,7 +314,7 @@ padding-top: 20px;
     section {
         width: 33.33%;
         padding: 10px;
-        
+
     }
 
     .skills {
@@ -352,4 +330,3 @@ padding-top: 20px;
     }
 
 }
-
