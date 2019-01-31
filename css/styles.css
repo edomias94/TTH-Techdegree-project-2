@@ -52,7 +52,8 @@ footer {
 
 .name {
 
-    color: yellowgreen;
+    color: green;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00; 
 
 }
 
@@ -123,7 +124,7 @@ footer {
     letter-spacing: 1px;
     text-transform: uppercase;
     float: right;
-    margin-top: -35px;
+    
 
 }
 
@@ -159,11 +160,11 @@ footer {
     }
 
 
-    h1,
-    h2 {
+    h1
+    {
         color: yellow;
         font-family: 'Ruslan Display', cursive;
-
+        font-size: 2em;
     }
 
     header {
@@ -222,8 +223,8 @@ footer {
         background-size: cover;
         background-position: right center;
         background-attachment: fixed;
-        margin-right: 10px;
-        padding: 30px;
+        margin-bottom: -20px;
+        padding:30px;
 
     }
 
@@ -238,7 +239,7 @@ footer {
         background-position: center center;
         background-size: cover;
         padding: 0;
-
+padding-top: 20px;
     }
 
     section {
@@ -255,7 +256,7 @@ footer {
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
 
@@ -295,7 +296,6 @@ footer {
     #footer-skills {
         text-align: right;
         display: inline-block;
-        font-family: 'Ruslan Display', cursive;
         font-size: .9rem;
         letter-spacing: 1px;
         text-transform: uppercase;
